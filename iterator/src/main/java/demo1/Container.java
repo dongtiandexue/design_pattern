@@ -5,5 +5,9 @@ package demo1;
  */
 public interface Container {
 
+    /**
+     * 获取迭代器对象
+     * @return
+     */
     Iterator getIterator();
 }

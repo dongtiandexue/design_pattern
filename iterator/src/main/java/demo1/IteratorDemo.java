@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @ClassName IteratorDemo
- * @Description TODO
+ * @Description 迭代器客户端测试
  * @Date 2019/6/29 14:47
  * @Version 1.0
  **/
@@ -30,7 +30,5 @@ public class IteratorDemo {
         System.out.println("------------------------------");
         System.out.println("集合的第一个元素：" + iterator.first());
         System.out.println("集合的最后一个元素：" + iterator.last());
-
-
     }
 }

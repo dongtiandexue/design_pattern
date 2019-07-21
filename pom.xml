@@ -15,6 +15,7 @@
         <module>adapter</module>
         <module>iterator</module>
       <module>composite</module>
+      <module>proxy</module>
     </modules>
 
 

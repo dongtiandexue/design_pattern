@@ -16,21 +16,17 @@ public abstract class Company {
 
   /**
    * 增加
-   * @param company
    */
   abstract void add(Company company);
 
   /**
    * 移除
-   * @param company
    */
   abstract void remove(Company company);
 
   /**
    * 打印
-   * @param depth
    */
   abstract void display(int depth);
-
 
 }

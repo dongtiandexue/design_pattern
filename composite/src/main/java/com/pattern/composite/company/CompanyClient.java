@@ -2,12 +2,12 @@ package com.pattern.composite.company;
 
 
 /**
- * @ClassName Client
+ * @ClassName CompanyClient
  * @Description TODO
  * @Date 2019/7/7 15:57
  * @Version 1.0
  **/
-public class Client {
+public class CompanyClient {
 
   public static void main(String[] args) {
     ConcreteCompany root = new ConcreteCompany("北京总公司");
@@ -33,6 +33,5 @@ public class Client {
     root.display(1);
 
   }
-
 
 }
